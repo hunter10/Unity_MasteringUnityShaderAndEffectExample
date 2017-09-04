@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class cloudAnim : MonoBehaviour {
+public class cloudAnim_start : MonoBehaviour {
 	//public float atlasPosition; //the starting vertical UV value - to be randomized.
 	public float currOpacity;
 	public float fadeSpeed;

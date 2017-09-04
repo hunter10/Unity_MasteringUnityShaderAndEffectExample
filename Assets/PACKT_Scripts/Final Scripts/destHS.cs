@@ -22,6 +22,7 @@ public class destHS : MonoBehaviour {
 	
 	void Update () 
 	{
+        
 		if(UVTileSwitch)
 		{
 			currTile = 0.5f;
@@ -40,7 +41,8 @@ public class destHS : MonoBehaviour {
 		{
 			currArrayPos = 0;
 		}
-		//rend.Material.UVOffset(UVOffsets[currArrayPos]);
+		
+        //rend.Material.UVOffset(UVOffsets[currArrayPos]);
 		rend.material.SetTextureOffset("_MainTex", UVOffsets[currArrayPos]);
 
 		//rend.Material.UVTiling(UVTiles[currArrayPos]);
